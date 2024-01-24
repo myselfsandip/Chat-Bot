@@ -31,7 +31,7 @@ This repository contains a simple chatbot interface built using HTML, CSS, and J
    git clone https://github.com/your-username/your-repository.git
 # Chat-Bot
 Chat bot using OpenAi API
-
+Open the index.html file in your web browser.
 Usage
 Open the index.html file in a web browser.
 Enter your messages in the message input field.
