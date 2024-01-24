@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Libre+Baskerville:wght@700&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,400&family=Open+Sans:wght@500;600;700&family=Poppins:wght@200;400;600&family=Rubik:ital,wght@1,900&family=Sacramento&family=Signika:wght@500&family=Ubuntu:wght@500&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color:#e3f2fd;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins',sans-serif;
+}
+.chatBox{
+    min-height: 570px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.chat-title{
+    height:65px;
+    width: 100%;
+    background-color: #724ae8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.chat-body{
+    height: 445px;
+    width: 100%;
+    overflow: auto;
+    padding: 16px;
+}
+.chat-body::-webkit-scrollbar{
+    visibility: hidden;
+}
+.chat-message{
+    border-top: 2px solid rgba(128, 128, 128, 0.552);
+    height: 8.7vh;
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    gap: 5px;
+}
+.chat-message input{
+    flex: 1;
+    height: 100%;
+    border: transparent;
+    outline: transparent;
+    font-size: 16px;
+    margin-left: 10px;
+}
+/* .chat-message input::placeholder{
+    font-size: 16px;
+} */
+.chat-message i{
+    color: #724ae8;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.chat-body .bot{
+    display: flex;
+    gap: 5px;
+}
+.chat-body .user{
+    display: flex;
+    justify-content: flex-end;
+}
+.box{
+    background-color: #f2f2f2;
+    padding: 10px 10px 10px 15px;
+    font-size: 14px;
+    max-width: 80%;
+    font-family: poppins;
+    margin-bottom: 16px;
+}
+.box1{
+    border-radius: 10px 10px 10px 0;
+}
+.box2{
+    border-radius: 5px 5px 0 5px;
+    background-color: #724ae8;
+    color: #fff;
+}
+.chat-body .bot img{
+    height: 40px;
+}
+.chat-body .bot .box .active{
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
